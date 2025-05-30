@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #e6f7ff; /* light blue */
+  background-color: #b1b5b8; /* light blue */
   color: #333;
 }
 
@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #bcc3c8;
   text-decoration: none;
   font-weight: bold;
 }
@@ -56,13 +56,13 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh; /* full screen height */
+  /* min-height: 100vh; full screen height */
   padding: 40px 20px;
 }
 
 .hero {
-  background: linear-gradient(135deg, #5f9ea0, #4682b4);
-  color: white;
+  background: linear-gradient(135deg, #0d6366, #4682b4);
+  color: rgb(248, 251, 252);
 }
 
 .hero h2 {
@@ -76,7 +76,7 @@ section {
 }
 
 .cta-btn {
-  background: #fff;
+  background: #92cee3;
   color: #222;
   padding: 12px 24px;
   text-decoration: none;
@@ -86,7 +86,7 @@ section {
 }
 
 .cta-btn:hover {
-  background-color: #ddd;
+  background-color: #79a8b9;
 }
 
 .services-list {
@@ -99,7 +99,7 @@ section {
 }
 
 .services-list li {
-  background-color: #ffffff;
+  background-color: #64a6b1;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -124,7 +124,7 @@ form textarea {
 
 form button {
   background: #4682b4;
-  color: white;
+  color: rgb(82, 159, 159);
   border: none;
   padding: 12px;
   border-radius: 5px;
@@ -140,7 +140,7 @@ form button {
 }
 
 .footer-image img {
-  width: 200px;                /* 🔹 SMALL size */
+  width: 600px;                /* 🔹 SMALL size */
   display: block;              /* Center horizontally */
   margin: 20px auto;           /* Center with margin */
   border-radius: 10px;
@@ -151,5 +151,5 @@ footer {
   text-align: center;
   padding: 20px;
   background: #222;
-  color: white;
+  color: rgb(112, 192, 181);
 }
